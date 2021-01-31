@@ -19,6 +19,10 @@ body {
     overflow-wrap: break-word;
 }
 
+.cover {
+    max-width:100%;
+}
+
 #footer {
     float: left;
     width: 100%;
