@@ -60,6 +60,6 @@ nav a {
     font-size: 1.1em;
 }
 
-nav a:hover, nav a:active {
+nav a:hover, nav a:active, content a {
     text-decoration: underline;
 }

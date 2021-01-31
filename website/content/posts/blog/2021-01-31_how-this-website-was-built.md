@@ -15,3 +15,6 @@ There is no tracking or analytics on this page, because I don't need it. This is
 
 ## Sharing is caring
 If you like the content you see here, feel free to copy the URL into any spcial media page or messemger you want to share it with your friends. Actually I would be very happy about this.
+
+## Open
+This whole website, incl. templates and the hugo site, is available at [Github](https://github.com/salendron/hautzenbergerat). Feel free to take alook at it and maybe use my template. I use git here, because it allows me to track changes and makes it easy for me to write from wherever I want.
