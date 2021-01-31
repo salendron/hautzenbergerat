@@ -12,4 +12,4 @@ I work in IT for since 2004. I started as a software developer in enterprise con
 
 ## Reach out to me
 
-You can find me on Twitter, my personal Instagram and also my Instagram account about photography. If you are really old school, you can also send an me an email to bhautzenberg[at]gmail.com.
+You can find me on [Twitter](https://twitter.com/salendron), [my personal Instagram](https://www.instagram.com/bhautzenberger/) and also [my Instagram account about photography](https://www.instagram.com/as_seen_by_my_camera). Source code I write in my free time can be found on [Github](https://github.com/salendron) and my professional profile can be found at [LinkedIn](https://at.linkedin.com/in/bruno-hautzenberger-5a5474a9). If you are really old school, you can also send an me an email to bhautzenberg[at]gmail.com.
