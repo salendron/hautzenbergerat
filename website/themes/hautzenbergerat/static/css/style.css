@@ -28,6 +28,11 @@ body {
     max-width: 1024px;
 }
 
-hr {
-    border: 1px dashed var(--text-color);
+.photo {
+    margin-top: var(--default-margin);
+    width: 100%;
+}
+
+.photo-caption {
+    text-align: right;
 }

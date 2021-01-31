@@ -10,11 +10,11 @@ theme = "hautzenbergerat"
     weight = 1
   [[menu.main]]
     name = "Photography"
-    url = "/posts/photography"
+    url = "/tags/photography/"
     weight = 2
   [[menu.main]]
     name = "Blog"
-    url = "/posts/blog/"
+    url = "/tags/blog/"
     weight = 3
   [[menu.main]]
     name = "Me"

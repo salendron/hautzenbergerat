@@ -5,4 +5,12 @@
 <h1 class="single">{{ .Title }}</h1>
 {{ partial "metadata.html" . }}
 {{ .Content }}
+
+{{ with .Params.images }}
+{{ range . }}
+<img class="photo" src="{{ . }}">
+{{ end }}
+{{ end }}
+
+
 {{ end }}
