@@ -41,6 +41,10 @@ a, p {
     color: var(--text-color);
 }
 
+p.footer, p.footer a {
+    font-size: 0.8em;
+}
+
 a.list-link {
     text-decoration: none;
 }
