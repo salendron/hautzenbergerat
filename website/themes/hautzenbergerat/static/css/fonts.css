@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Headline';
+    src:  url('../fonts/Roboto_Mono/static/RobotoMono-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Nav';
+    src:  url('../fonts/Roboto_Mono/static/RobotoMono-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Text';
+    src:  url('../fonts/Roboto/Roboto-Medium.ttf');
+}
+
+* {
+    font-family: "Text";
+    color: var(--text-color);
+} 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Headline";
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+h1 {
+    margin-top: 0px;
+    font-size: 4em;
+}
+
+a, p {
+    color: var(--text-color);
+}
+
+nav a {
+    font-family: "Nav";
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav a:hover, nav a:active {
+    text-decoration: underline;
+}

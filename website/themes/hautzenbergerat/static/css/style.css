@@ -1,0 +1,26 @@
+body {
+    background-color: var(--bg-color);
+    margin: 0;
+}
+
+.container {
+    padding: var(--default-margin);
+}
+
+#nav {
+    float:left;
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+
+#content {
+    float: left;
+    max-width: 1024px;
+    overflow-wrap: break-word;
+}
+
+#footer {
+    float: left;
+    width: 100%;
+    background-color: darkblue;
+}
