@@ -1,12 +1,12 @@
 {{ define "main" }}
-  <h1 class="title">{{ .Site.Title }}</h1>
-  {{ range where .Site.RegularPages.ByPublishDate.Reverse "Section" "!=" "" }}
-  <p>
-      <h2><a class="list-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-      {{ partial "metadata.html" . }}
-      <a class="list-link" href="{{ .RelPermalink }}">
-          <p>{{ .Summary }}</p>
-      </a>
-  </p>
-  {{ end }}
+<h1 class="title">{{ .Site.Title }}</h1>
+{{ range where .Site.RegularPages.ByPublishDate.Reverse "Section" "!=" "" }}
+<p>
+    <h2><a class="list-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    {{ partial "metadata.html" . }}
+    <a class="list-link" href="{{ .RelPermalink }}">
+        <p>{{ .Summary }}</p>
+    </a>
+</p>
+{{ end }}
 {{ end }}
