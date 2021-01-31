@@ -5,8 +5,14 @@
     <h2><a class="list-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
     {{ partial "metadata.html" . }}
     <a class="list-link" href="{{ .RelPermalink }}">
-        <p>{{ .Summary }}</p>
+        <p>
+            {{ if .Params.cover }}
+            <img class="list-cover" src="{{ .Params.cover }}">
+            {{ end }}
+            {{ .Summary }}
+        </p>
     </a>
+    <div class="clearfix">&nbsp;</div>
 </p>
 {{ end }}
 {{ end }}

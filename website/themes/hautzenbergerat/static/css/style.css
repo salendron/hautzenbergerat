@@ -23,6 +23,12 @@ body {
     max-width:100%;
 }
 
+.list-cover {
+    max-width: 150px;
+    float: left;
+    margin-right: var(--default-margin);
+}
+
 #footer {
     float: left;
     max-width: 1024px;
@@ -35,4 +41,9 @@ body {
 
 .photo-caption {
     text-align: right;
+}
+
+.clearfix {
+    width: 100%;
+    clear:both;
 }

@@ -2,4 +2,12 @@
     #content {
         max-width: 90%;
     }
+
+    .list-cover {
+        max-width: 100%;
+        width: 100%;
+        float: none;
+        margin-right: 0px;
+        margin-bottom: var(--default-margin);
+    }
 }
