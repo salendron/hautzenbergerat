@@ -1,7 +1,7 @@
 ---
 title: "Imprint and privacy policy"
 date: 2021-01-31T14:57:26Z
-draft: true
+draft: false
 ---
 ## Author and TL;DR;
 

@@ -17,6 +17,6 @@ theme = "hautzenbergerat"
     url = "/tags/blog/"
     weight = 3
   [[menu.main]]
-    name = "Me"
+    name = "About me"
     url = "/me"
     weight = 4
