@@ -29,8 +29,24 @@ h1 {
     font-size: 4em;
 }
 
+h1.single {
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
 a, p {
     color: var(--text-color);
+}
+
+a.list-link {
+    text-decoration: none;
+}
+
+a.metadata, time {
+    font-family: 'Nav';
 }
 
 nav a {

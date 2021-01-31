@@ -1,5 +1,12 @@
 {{ define "main" }}
-<div id="home-jumbotron" class="jumbotron text-center">
   <h1 class="title">{{ .Site.Title }}</h1>
-</div>
+  {{ range where .Site.RegularPages.ByPublishDate.Reverse "Section" "!=" "" }}
+  <p>
+      <h2><a class="list-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      {{ partial "metadata.html" . }}
+      <a class="list-link" href="{{ .RelPermalink }}">
+          <p>{{ .Summary }}</p>
+      </a>
+  </p>
+  {{ end }}
 {{ end }}
