@@ -47,3 +47,11 @@ body {
     width: 100%;
     clear:both;
 }
+
+code {
+    color: #dddddd;
+}
+
+.highlight pre {
+    padding: var(--default-margin);
+}
