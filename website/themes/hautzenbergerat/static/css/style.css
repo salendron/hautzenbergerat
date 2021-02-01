@@ -48,10 +48,6 @@ body {
     clear:both;
 }
 
-code {
-    color: #dddddd;
-}
-
 .highlight pre {
     padding: var(--default-margin);
 }

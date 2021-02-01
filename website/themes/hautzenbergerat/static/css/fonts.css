@@ -9,6 +9,11 @@
 }
 
 @font-face {
+    font-family: 'Code';
+    src:  url('../fonts/Roboto_Mono/static/RobotoMono-Medium.ttf');
+}
+
+@font-face {
     font-family: 'Text';
     src:  url('../fonts/Roboto/Roboto-Light.ttf');
 }
@@ -62,4 +67,8 @@ nav a {
 
 nav a:hover, nav a:active, content a {
     text-decoration: underline;
+}
+
+code {
+    font-family: "Code";
 }
