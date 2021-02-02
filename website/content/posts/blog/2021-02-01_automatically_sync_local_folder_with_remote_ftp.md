@@ -2,7 +2,7 @@
 title: "Automatically sync local folder with remote ftp"
 date: 2021-02-01T18:50:11Z
 draft: false
-tags: ["blog", "scripting", "bash", "ftp", "automation"]
+tags: ["blog", "howto", "scripting", "bash", "ftp", "automation"]
 ---
 As I've already mentioned in my article about [how this website was built](/posts/blog/2021-01-31_how-this-website-was-built/), this website get's updated every night automatically with content I wrote the day before.
 To do so I use a cronjob and a little script that get's the latests version of this website from Github, builds it and then uploads it via ftp. Since mirroring a local directory with a remote ftp directory is a pretty common task, I thought it would make sense to write about how I did it.
