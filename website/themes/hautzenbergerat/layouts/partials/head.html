@@ -8,5 +8,32 @@
     <link rel="stylesheet" type="text/css" href="/css/mobile.css">
     {{ $title := print .Site.Title " | " .Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
-    <title>{{ $title }}</title>
+    <title>{{ $title }}</title> 
+    <meta property="og:title" content="{{ $title }}" />
+
+    <meta name="author" content="Bruno Hautzenberger" />
+    <meta name="robots" content="index,follow" />
+
+    {{ if .IsHome }}
+    <meta name="description" content="{{ $title }}"/>
+    <meta property="og:description" content="{{ $title }}" />
+    {{ else }}
+    <meta name="description" content="{{ .Summary }}"/>
+    <meta property="og:description" content="{{ .Summary }}" />
+    {{ end }}
+
+    {{ with .Params.tags }}
+    {{ $tagline := "" }}
+    {{ range . }}
+    {{ $tagline = print $tagline "," . }}
+    {{ end }}
+    {{ $tagline = trim $tagline "," }}
+    <meta name="keywords" content="{{ $tagline }}"/>
+    {{ end }}
+
+    {{ if .Params.cover }}
+    <meta property="og:image" content="{{ .Params.cover }}" />
+    {{ else }}
+    <meta property="og:image" content="/images/generic_header.jpg" />
+    {{ end }}
 </head>
