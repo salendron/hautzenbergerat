@@ -2,7 +2,7 @@
 title: "Apocalypse"
 date: 2021-01-31T17:45:02Z
 draft: false
-tags: ["photography"]
+tags: ["photography", "analog", "analogphotograpy", "filmphotography", "lockdown"]
 cover: "/images/photography/apocalypse/001.jpg"
 images: ["/images/photography/apocalypse/002.jpg", "/images/photography/apocalypse/003.jpg", "/images/photography/apocalypse/004.jpg", "/images/photography/apocalypse/005.jpg",
 "/images/photography/apocalypse/006.jpg", "/images/photography/apocalypse/007.jpg", "/images/photography/apocalypse/008.jpg", "/images/photography/apocalypse/009.jpg", "/images/photography/apocalypse/010.jpg", "/images/photography/apocalypse/011.jpg", "/images/photography/apocalypse/012.jpg", "/images/photography/apocalypse/013.jpg", "/images/photography/apocalypse/014.jpg"]

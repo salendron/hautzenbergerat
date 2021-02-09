@@ -2,7 +2,7 @@
 title: "Dystopia"
 date: 2021-01-30T17:45:02Z
 draft: false
-tags: ["photography"]
+tags: ["photography", "analog", "analogphotograpy", "filmphotography", "blackandwhite"]
 cover: "/images/photography/dystopia/001.jpg"
 images: ["/images/photography/dystopia/002.jpg", "/images/photography/dystopia/003.jpg", "/images/photography/dystopia/004.jpg", "/images/photography/dystopia/005.jpg",
 "/images/photography/dystopia/006.jpg", "/images/photography/dystopia/007.jpg", "/images/photography/dystopia/008.jpg", "/images/photography/dystopia/009.jpg", "/images/photography/dystopia/010.jpg"]

@@ -2,7 +2,7 @@
 title: "Concrete"
 date: 2021-01-28T17:45:02Z
 draft: false
-tags: ["photography"]
+tags: ["photography", "analog", "analogphotograpy", "filmphotography", "buildings", "architecture"]
 cover: "/images/photography/concrete/001.jpg"
 images: ["/images/photography/concrete/002.jpg", "/images/photography/concrete/003.jpg", "/images/photography/concrete/004.jpg", "/images/photography/concrete/005.jpg",
 "/images/photography/concrete/006.jpg", "/images/photography/concrete/007.jpg", "/images/photography/concrete/008.jpg", "/images/photography/concrete/009.jpg", "/images/photography/concrete/010.jpg"]

@@ -2,7 +2,7 @@
 title: "14 years later"
 date: 2021-01-29T17:45:02Z
 draft: false
-tags: ["photography"]
+tags: ["photography", "analog", "analogphotograpy", "filmphotography", "people", "portrai", "wedding"]
 cover: "/images/photography/14_years_later/001.jpg"
 images: ["/images/photography/14_years_later/002.jpg", "/images/photography/14_years_later/003.jpg", "/images/photography/14_years_later/004.jpg", "/images/photography/14_years_later/005.jpg",
 "/images/photography/14_years_later/006.jpg", "/images/photography/14_years_later/007.jpg", "/images/photography/14_years_later/008.jpg", "/images/photography/14_years_later/009.jpg", "/images/photography/14_years_later/010.jpg"]
