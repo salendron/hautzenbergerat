@@ -1,6 +1,8 @@
 {{ define "main" }}
 {{ if .Params.cover }}
 <img class="cover" src="{{ .Params.cover }}">
+{{ else }}
+<img class="cover" src="/images/generic_header.jpg">
 {{ end }}
 <h1 class="single">{{ .Title }}</h1>
 {{ partial "metadata.html" . }}
