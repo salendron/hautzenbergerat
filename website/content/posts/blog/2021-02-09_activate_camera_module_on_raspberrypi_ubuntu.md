@@ -1,6 +1,6 @@
 ---
 title: "How to enable RaspberryPi Camera module on Ubuntu"
-date: 2021-02-09T13:06:25Z
+date: 2021-02-09T18:06:25Z
 draft: false
 tags: ["blog", "howto", "raspberrypi", "camera", "ubuntu"]
 ---
