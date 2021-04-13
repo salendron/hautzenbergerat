@@ -9,7 +9,7 @@ Burgers are complicated. A lot of small details determine if they are great or n
 
 ## Ingredients (4 buns)
 * 300g of all purpose flour
-* 1 package (7g) of dry yeas
+* 1 package (7g) of dry yeast
 * 60ml of warm water
 * 70ml of milk
 * 2 eggs
