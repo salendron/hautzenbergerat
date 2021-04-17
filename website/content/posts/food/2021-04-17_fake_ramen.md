@@ -1,6 +1,6 @@
 ---
 title: "60min Miso Chicken Ramen"
-date: 2021-04-11T09:57:35Z   
+date: 2021-04-17T09:57:35Z   
 draft: false
 tags: ["blog", "food", "recipe", "ramen", "miso"]
 cover: "/images/food/fake_miso_ramen.jpg"  
