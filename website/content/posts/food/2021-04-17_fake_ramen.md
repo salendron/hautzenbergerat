@@ -24,7 +24,7 @@ Let's start by getting the bones out of the chicken legs. Just take a sharp knif
 Take a medium pot and put in the root of the Pak Choi, the bones of the chicken, the bottom ends of the scalion, half of your ginger, and the carrot peels in. Add about 2 liters of water, cover the powl with a lid and put it to high heat for about 45 minutes.
 
 ## Chicken and crispy ginger
-Take a big pot and put in the chicken meat with the skin down. We do not need any oil here. Put it to low heat and let the fat come out of the chicken until the skin is crispy. We want a nice brown bottom crust in our pot, but be careful not to burn it. Then flip the chicken and also let the other side get brown. After that take the chicken out into a oven-ready bowl and put it into your oven at 150¡C. 
+Take a big pot and put in the chicken meat with the skin down. We do not need any oil here. Put it to low heat and let the fat come out of the chicken until the skin is crispy. We want a nice brown bottom crust in our pot, but be careful not to burn it. Then flip the chicken and also let the other side get brown. After that take the chicken out into a oven-ready bowl and put it into your oven at 150 degrees C. 
 Now chop the remaining ginger into small pieces and put it into the pot in which we had the chicken in and let it get brown at low heat. Take it out, but leave the remaining fat in.
 
 ## Finishing the broth
