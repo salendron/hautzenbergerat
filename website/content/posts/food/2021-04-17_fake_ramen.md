@@ -2,7 +2,7 @@
 title: "60min Miso Chicken Ramen"
 date: 2021-04-17T09:57:35Z   
 draft: false
-tags: ["blog", "food", "recipe", "ramen", "miso"]
+tags: ["food", "recipe", "ramen", "miso"]
 cover: "/images/food/fake_miso_ramen.jpg"  
 ---
 I love Ramen and I'm  not talking about instant Ramen, I'm talking about real fresh Ramen, but there is a problem. It usually takes me two days to make them. So what if I want to eat Ramen today?
