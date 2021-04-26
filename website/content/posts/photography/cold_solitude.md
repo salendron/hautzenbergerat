@@ -1,6 +1,6 @@
 ---
 title: "Cold Solitude"
-date: 2021-04-26T20:00:02Z
+date: 2021-04-26T19:00:02Z
 draft: false
 tags: ["photography", "analog", "analogphotograpy", "filmphotography", "mediumformat", "winter"]
 cover: "/images/photography/cold_solitude/001.jpg"
