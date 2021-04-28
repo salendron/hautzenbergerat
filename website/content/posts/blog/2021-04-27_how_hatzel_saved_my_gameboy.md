@@ -3,7 +3,7 @@ title: "How Hatzel saved my Gameboy"
 date: 2021-04-27T19:00:25Z
 draft: false
 tags: ["blog", "howto", "gameboy", "gaming", "retro"]
-cover: "/images/Gameboy.jpg"
+cover: "/images/gameboy.jpg"
 ---
 I own a classic Nintendo Gameboy, a device that hit the consumer market 32 years ago. I was born one year before that. Of course a few more years passed until I got a Gameboy myself. I played Super Mario Land, Tetris and later Zelda: Links Awakening and (of course) Pokemon.
 Then the device was replaced by various other consoles and PCs over the next decades. Two years ago I rediscovered it and somehow, after all these years, I felt the desire to relive that time in which I sat down to play those games. I know that there are Emulators and also the  Nintendo Switch allows me to play some old games on it.
