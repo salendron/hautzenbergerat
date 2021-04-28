@@ -3,9 +3,9 @@ title: "How Hatzel saved my Gameboy"
 date: 2021-04-27T19:00:25Z
 draft: false
 tags: ["blog", "howto", "gameboy", "gaming", "retro"]
-cover: "/Images/Gameboy.jpg"
+cover: "/images/Gameboy.jpg"
 ---
-I own a classic Nintendo Gameboy, a device that hit the consumer market 32 years ago. I was born one year before that. Of course a few more years passed until I got a Gameboy myself. I played Super Mario Land, Tetris and later Zelda: Links Awakening and (of course) Pokémon.
+I own a classic Nintendo Gameboy, a device that hit the consumer market 32 years ago. I was born one year before that. Of course a few more years passed until I got a Gameboy myself. I played Super Mario Land, Tetris and later Zelda: Links Awakening and (of course) Pokemon.
 Then the device was replaced by various other consoles and PCs over the next decades. Two years ago I rediscovered it and somehow, after all these years, I felt the desire to relive that time in which I sat down to play those games. I know that there are Emulators and also the  Nintendo Switch allows me to play some old games on it.
 Still, I wanted the full experience including the old device. So I gave it a try and that's the moment my problem started. The device is old, like really old, especially for an electronic device. The display had so little contrast that it was nearly impossible to see something on it, the buttons where soft and unresponsive, the case was yellow and worn off and there was also visible rust and stuff like that. This maybe seems like I'm finicky, but it really ruined my experience. So the Gameboy became a decorative item again.
 
