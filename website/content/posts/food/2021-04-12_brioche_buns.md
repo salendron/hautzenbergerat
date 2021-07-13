@@ -2,7 +2,7 @@
 title: "Brioche Buns Recipe"
 date: 2021-04-12T16:23:15Z
 draft: false
-tags: ["blog", "food", "recipe", "brioche", "buns", "burger"] 
+tags: ["food", "recipe", "brioche", "buns", "burger"] 
 cover: "/images/food/brioche_buns.jpg"
 ---
 Burgers are complicated. A lot of small details determine if they are great or not. One of the crucial thing is the bun, brioche of course. But buns aren't that complicated, if you follow this simple recipe.
