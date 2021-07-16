@@ -9,15 +9,21 @@ images: ["/images/photography/no_story_to_tell/001.jpeg","/images/photography/no
 ---
 
 I wrote a book. I guess most of you haven‘t expected that. In fact ‚wrote‘ is maybe the wrong word, because there are, besides the title, only two sentences to read in the whole thing. The first one can be found right after the first two blank pages and it reads as follows.
+
 > „If future generations will ask me about that time, I will pretend I can‘t remember.
+
 This is basically the whole idea behind this book. It is about the feeling I had during the first 15 month of the pandemic that changed everything for all of us, in a way I would have never thought to be possible. 
 
 The second sentence can be found on the back of the book and it reads:
+
 > I am not a photographer, this is just a documentation of what I saw.
+
 This is something I really mean as I say it. I know so many great photographers and I would never call myself one of them. I do this as a hobby and this is what my photography is, the result of somebody who is not a professional. This is also the reason why this book exists only three times. I designed them myself and also just printed them using an online print services. No publisher ever would print them and try to sell them. Initially I wanted to print only one for myself, but then I decided to print two more for two friends of which I know that they are really into photography and that they are maybe interested in owning one of these.
 
 Now there is only one written thing left to talk about, the title.
+
 > no story to tell
+
 The title is probably the last thing I came up with while producing this book. I was thinking about the story behind all of it. During this process I noticed that actually it is all about the fact that there no stories at all. That‘s the whole point. We experienced nothing, everything stopped. So, I have no story to tell.
 
 As already mentioned there are only three books and still I want to give everybody the chance to take a look at all the photos. Personally I think that it is way better to experience this as a book and you still can come to my place and take a look at the book yourself, but if this is not possible for you, you can also just scroll down this page to see all of them here.
