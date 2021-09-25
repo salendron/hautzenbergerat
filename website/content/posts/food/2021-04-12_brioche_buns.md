@@ -15,7 +15,7 @@ Burgers are complicated. A lot of small details determine if they are great or n
 * 2 eggs
 * 1 teaspoon of salt
 * 1 tablespoon of sugar
-* 20g butter
+* 50g butter
 * 1 tablespoon of sesame
 
 ## Preperation
