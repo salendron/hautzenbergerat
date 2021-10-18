@@ -22,8 +22,7 @@ Now we create a new python file called "code.py" and copy the follwing code into
 
 What it basically does is, that it sets every button up with its digital pin, configured as DigitalInOut, set its direction to input, so we can read its value and lastly set pull to up. 
 
-We do this for every button and after that we add an infinite loop which checks for the inverse value of the button. Its default value while the button is not pressed will be 1, therefor we invert it. If a button get's pressed, value 0, we use the HID keyboard module to send the keycode of the button we want to emulate.
-Now we copy that file to the root directory of the Pico and we are done.
+We do this for every button and after that we add an infinite loop which checks for the inverse value of the button. Its default value while the button is not pressed will be 1, therefor we invert it. If a button get's pressed, value 0, we use the HID keyboard module to send the keycode of the button we want to emulatew we copy that file to the root directory of the Pico and we are done.
 ```python
 import time
 import usb_hid
