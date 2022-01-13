@@ -1,6 +1,6 @@
 ---
 title: "Multiclass classification with Tensorflow and Keras functional API"
-date: 2022-01-10T19:00:25Z
+date: 2022-01-13T19:00:25Z
 draft: false
 tags: ["blog", "howto", "python", "tensorflow", "ml", "maschine learning", "keras"]
 ---
