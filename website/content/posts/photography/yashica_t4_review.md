@@ -1,5 +1,5 @@
 ---
-title: "Capturing live - Yashica T4 Review"
+title: "Capturing life - Yashica T4 Review"
 date: 2022-01-25T19:00:02Z
 draft: false
 tags: ["photography", "analog", "analogphotograpy", "filmphotography", "review"]
