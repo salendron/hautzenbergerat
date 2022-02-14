@@ -1,0 +1,114 @@
+---
+title: "Using a Tensorflow/Keras multi-input model and NLTK to train a simple chatbot"
+date: 2022-02-14T20:00:25Z
+draft: false
+tags: ["blog", "howto", "python", "tensorflow", "ml", "maschine learning", "keras"]
+---
+In this example we will build a very simple chatbot, which we will train on pre-defined questions and answers. This approach is very simple, but in fact could be used to build a chatbot that allows users to talk about a limited scope. So basically you could use this as a different way for users to search your FAQs or allow users to get information usually found in your service documentation or even your product offerings, opening hours and menu of your restaurant and so on, by simply asking.
+
+We will use a multi-input model, to process the user's input as well as the current conversation context, and also the very powerful NLTK framework to normalize natural language input.
+
+## Prequesites
+This is the fourth part of my Tensorflow and Keras Sample series. To better understand what is going on here, I highly recommend to read [part 1](https://hautzenberger.at/posts/blog/2022-01-10_tensorflow_tutorial_001_binaray_classification/), [part 2](https://hautzenberger.at/posts/blog/2022-01-13_tensorflow_tutorial_002_multiclass_classification_functional_api/) and [part 3](https://hautzenberger.at/posts/blog/2022-01-15_tensorflow_tutorial_003_predicting_house_prices_regression_data_normalization/) first and then return here to continue.
+
+## The training data
+This time we write our own training data, which consists of a list of so called intents. An intent in this case is a combination of sample questions and corresponding answers, as well as the context of the answer. So if the question is "which is you favourit fruit?" and the answer is "I love bananas", the context is "banana". We will use this context to allow the bot to remember what wer are talking about, which allows the bot to correctly answer followup questions like "which color do they have?" with "yellow", because it still knows we are talkling about bananas. 
+Sample training data can be found [here](https://github.com/salendron/tensorflow_examples/blob/main/004_multi_input_model_chatbot/conversation_training_data.json). You can just take this format to build your very own conversation input. This file also specifies two special answers for errors, and situations in which the bot does not know the answer.
+
+To load and process the data we use a class called ConversationTrainingData defined in [conversation_training_data.py](https://github.com/salendron/tensorflow_examples/blob/main/004_multi_input_model_chatbot/conversation_training_data.py). This class reads the whole json file and pre-processes each intent. 
+What we do is very similar to what we did in the reuters newswire example in part2 of this series. We create a dictionary of every word in every intent and then create a list of len(dictionary) full of zeros and ones at the postion of every word in a givven sample for each sample in each intent. This is how we represent each each question. The label for each of these questions is the number of the intent it belongs to, because that's what want to predict in the end. We do the same for each context item of each intent. This results in two input lists of len(dictionary) and a list of labels, which are also a list full of zeros with a one at the position of the corrent intent and the same length as there are questions in combination with context items.
+
+To make language processing easier we convert every word to its base form. For this we use the very powerful NLTK library. The helper function to do this can be found in [language_helper.py](https://github.com/salendron/tensorflow_examples/blob/main/004_multi_input_model_chatbot/language_helper.py).
+What this basically does is converting "went" or "going" to their base form  "go" for example. This allows us to detect intent much easier and it also reduces the size of our dictionary.
+
+## Defining the model
+To process inputs of different types and/or dimenasion we need a model with multiple inputs. This can be done using Keras by defining multiple inputs followed by as many other layers as we want and later on concatenating them so we have a single output. This is very simple, if you use Keras' functional API and in this case this looks like this.
+```python
+# Load training data
+ctd = ConversationTrainingData.from_file("conversation_training_data.json")
+
+# define
+question_inputs = keras.Input(shape=(ctd.len_inputs, ))
+question_features = layers.Dense((ctd.len_samples + len(ctd.dictionary)) * 3, activation="relu")(question_inputs)
+
+context_inputs = keras.Input(shape=(ctd.len_inputs, ))
+context_features = layers.Dense((ctd.len_outputs + len(ctd.dictionary)) * 3, activation="relu")(context_inputs)
+
+inputs = layers.Concatenate()([question_features, context_features])
+
+outputs = layers.Dense(ctd.len_outputs, activation="softmax")(inputs)
+model = keras.Model(inputs=[question_inputs, context_inputs], outputs=outputs)
+
+model.compile(optimizer="rmsprop", loss="categorical_crossentropy", metrics=["accuracy"])
+```
+
+First we load our training data and then define an input for the sample questions as well as one for the sample context, both followed by a dense layer to learn the features of the data. The size of the two Dense layers depends on how many sample/outputs we have and how long our dictionary is. If you change the conversation data this will automatically get bigger or smaller. This approach worked well for me, but feel free to adapt these values to better fit your data.
+"inputs" is what we will connect to our output layer and this is also the layer in which we will concatenate the two feature layers. Lastly we define our model with our two inputs and a single output.
+
+## Training and saving the model
+This step is pretty straight forward. The only thing you'll notice, if you've read the previous tutorials, is that we pass a list of inputs to the model. This is how you can pass multiple inputs to a Keras model. Just make sure that they are in the same order as you've specified the inputs in the model definition. 
+
+After the training is finished and our loss is low enough, we can just call save on the model to save to the specified directory. Repeat this training everytime you change the conversation definition. The whole definition and training can be found in (trainer.py)[https://github.com/salendron/tensorflow_examples/blob/main/004_multi_input_model_chatbot/trainer.py].
+```python
+model.fit(
+    [ctd.sample_question_training_data,ctd.context_training_data],
+    ctd.train_labels,
+    epochs=60,
+    batch_size=128 
+)
+
+model.save("saved_model/chatbot")
+```
+
+## The chatbot
+Now we can use our model to actually chat with it. In this implementation we use a simple terminal interface, but you can use the same model to build a web based solution or even integrate a TextToSpeech and SpeechToText library to actually talk to it.
+
+It all starts by loading the trained model and conversation data. Keep in mind that the conversation data has to be the exact same as it was when training the model. If you change the conversation definition you also have to retrain the model.
+
+Next we just use a simple endless loop, so our conversation never stops and read the user input. Then we convert the user input to a numerical list of zeros and ones, like we did with the samples during training, and we also do this with the current context. The context is always taken from the last intent, so at first this list is empty.
+
+Now we can use these two inputs to make a prediction, which is actually a list of probabilities for each intent. We simply take the one with the highest probability and print the answer. If the probability is too low, we inform the user, that we do not have an answer to that. Lastly we remember the context of the predicted intent for the next question and start over.
+```python
+from tensorflow.keras.models import load_model
+import numpy as np
+from conversation_training_data import ConversationTrainingData
+
+#load the trained model
+model = load_model("saved_model/chatbot")
+
+#load the conversation data, so we can answer with the defined answers.
+ctd = ConversationTrainingData.from_file("conversation_training_data.json")
+
+#the current conversation context
+context = []
+
+#conversation loop
+while True:
+    #read user input
+    sentence = input(":")
+
+    #conver input and current context to numerical arrays so they can be
+    #used to predict the correct intent
+    input_sentence = ctd.sentence_to_input(sentence)
+    input_context = ctd.context_to_input(context)
+
+    #predict the correct input
+    prediction = model.predict([input_sentence, input_context])[0]
+    intent_idx = np.argmax(prediction)
+    predicted_intent = ctd.intents[intent_idx]
+
+    #check if the probability is high enough and either answer with the defined
+    #answer of the predicted intent or otherwise tell the user that we do not
+    #understand.
+    if prediction[np.argmax(prediction)] > 0.2:
+        print(sentence + ":" + predicted_intent.get_answer())
+    else:
+        print(sentence + ": I am not sure about that.")
+
+    #remember the current context for the next question
+    context = predicted_intent.context
+```
+
+The full source code of this can be found [here](https://github.com/salendron/tensorflow_examples/tree/main/004_multi_input_model_chatbot).
+
+
