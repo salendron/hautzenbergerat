@@ -1,6 +1,6 @@
 ---
 title: "A RaspberryPi Pico To-Do board using Micropython"
-date: 2021-02-02T18:25:12Z
+date: 2022-08-21T17:00:12Z
 draft: false
 tags: ["blog", "howto", "raspberrypi", "raspberrypi pico", "python", "micropython", "electronics", "programming", "iot", "microcontroller"]
 cover: "/images/domachine.jpeg"
