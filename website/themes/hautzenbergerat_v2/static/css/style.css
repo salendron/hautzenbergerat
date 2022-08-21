@@ -1,0 +1,53 @@
+body {
+    background-color: var(--bg-color);
+    margin: 0;
+}
+
+.container {
+    padding: var(--default-margin);
+}
+
+#nav {
+    float:left;
+    max-width: 90%;
+    overflow-wrap: break-word;
+}
+
+#content {
+    float: left;
+    max-width: 1024px;
+    overflow-wrap: break-word;
+}
+
+.cover {
+    max-width:100%;
+}
+
+.list-cover {
+    max-width: 150px;
+    float: left;
+    margin-right: var(--default-margin);
+}
+
+#footer {
+    float: left;
+    max-width: 1024px;
+}
+
+.photo {
+    margin-top: var(--default-margin);
+    width: 100%;
+}
+
+.photo-caption {
+    text-align: right;
+}
+
+.clearfix {
+    width: 100%;
+    clear:both;
+}
+
+.highlight pre {
+    padding: var(--default-margin);
+}
