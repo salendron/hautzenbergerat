@@ -16,12 +16,10 @@ So, before we go into the details of how you run Stable Diffusion on your local 
 You will need a working Tensorflow environment on your Mac. Luckily I've already written a tutorial on how to set this up [here](https://hautzenberger.at/posts/blog/2021-12-19_setup_tensorflow_env_on_m1_macos/). So just follow this tutorial and then continue with the specific setup of Stable Diffusion here.
 
 ## Stable Diffusion Setup
-In your activated Tensorflow environment you have to install these additional packages using pip. 
+Since StableDiffusion is now part of KerasCV, all you need to do is to install this package and you are ready to go.
 
 ```bash 
-pip install git+https://github.com/fchollet/stable-diffusion-tensorflow 
-pip install tensorflow_addons ftfy
-pip install tqdm                  
+pip install keras_cv             
 ```
 That's it. You are ready to go. 
 
@@ -31,35 +29,28 @@ So let's take a look at some example code, but before doing so I want to warn yo
 Another thing you should be aware of is that when you run the script for the first time it will download the model, which is pretty big, so this will take some time. This happens only the first time you run the script.
 
 ```python
-from stable_diffusion_tf.stable_diffusion import Text2Image
-from PIL import Image
+import keras_cv
 import os
+from PIL import Image
+
+model = keras_cv.models.StableDiffusion(768,768,jit_compile=False)
 
 prompts = [
-    "paraglider in the mountains sunset hyperealistic",
-    "retro space travel",
-    "a chair that looks like an avocado",
-    "a pixelart hero",
-    "a fast car, DSLR photo"
+    "DSLR photo of a big city skyline at night",
+    "modern art minimalistic painting",
+    "halloween wallpaper graphic"
 ]
-results = 6
 
-for prompt in prompts:
-    for i in range(results):
-        generator = Text2Image( 
-            img_height=512,
-            img_width=512,
-            jit_compile=False,  
-        )
-        img = generator.generate(
-            prompt,
-            num_steps=50,
-            unconditional_guidance_scale=7.5,
-            temperature=1,
-            batch_size=1,
-        )
 
-        pil_img = Image.fromarray(img[0])
-        pil_img.save(f"{prompt}_{i}.jpg")
+results = 1
+loops = 10
+
+for j in range(loops):
+    for prompt in prompts:
+        for i in range(results):
+            img = model.text_to_image("frog painting",batch_size=1,num_steps=20) 
+            pil_img = Image.fromarray(img[0])
+            pil_img.save(os.path.join("results", f"{prompt}_loop_{j}_{i}.jpg"))
+            
 ```
 ## Sample Results
