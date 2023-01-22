@@ -1,9 +1,9 @@
 ---
 title: "Programming a mini game on a RaspberryPi Pico using a 1.14‘‘ LCD screen"
-date: 2023-01-22T14:00:25Z
+date: 2023-01-21T14:00:25Z
 draft: false
 tags: ["blog", "howto", "microcontroller", "mycropython", "rapsberrypi", "raspberrypi pico", "game", "gamedev"]
-cover: "rasperrypi_pico_mini_game.png"
+cover: "/images/rasperrypi_pico_mini_game.png"
 ---
 I recently bough [this 1.14‘‘ LCD screen](https://www.waveshare.com/wiki/Pico-LCD-1.14) for the RaspberryPi Pico. This screen not only just fits perfectly onto the Rasperry, you literally just put it over all of the pin headers, it also comes with a little analog pad, up, down, left, right, as well as an A and B button. So it is already kind of a very small handheld gaming device.
 
