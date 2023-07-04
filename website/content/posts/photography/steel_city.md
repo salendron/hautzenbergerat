@@ -15,7 +15,7 @@ I have never visited Coney Island myself, but there is a place in Austria, which
 
 I hear a few guests screaming in a rollercoaster and mechanical monster voices in this colorful space, but it feels like a crumbling illusion. If you take a closer look, you see the rust on the metal bolts, the garbage under the constructions, you notice that all of this is slowly rotting and nobody tries to stop the decay. I stand in front of an empty ride on a bright and sunny day, as the guy in the booth is screaming the same old slogans as if he was cheering up a crowd waiting to buy a ticket, but nobody is there.
  
-It feels like this whole place is a remnand of a long forgotten time. You can see how this space is giving its best to stay, but it is slowly loosing this battle. There was a time, when this was peak entertainment, but it has lost his purpose for most of us. Everything thing that is left is a melancholic memory of something that won't come back - made of steel.
+It feels like this whole place is a remnand of a long forgotten time. You can see how this space is giving its best to stay, but it is slowly loosing this battle. There was a time, when this was peak entertainment, but it has lost his purpose for most of us. Everything that is left is a melancholic memory of something that won't come back - made of steel.
 
 ## equipment
 
