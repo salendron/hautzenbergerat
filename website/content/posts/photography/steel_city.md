@@ -1,10 +1,10 @@
 ---
 title: "Steel City"
-date: 2023-07-04T19:00:02Z
+date: 2023-07-04T18:00:02Z
 draft: false
 tags: ["photography", "analog", "analogphotograpy", "filmphotography", "fair", "rollercoaster", "ride", "blog"]
 cover: "/images/photography/steel_city/cover.jpg"
-images: [, "/images/photography/steel_city/001.jpg", "/images/photography/steel_city/002.jpg", "/images/photography/steel_city/003.jpg", "/images/photography/steel_city/004.jpg", "/images/photography/steel_city/005.jpg",
+images: ["/images/photography/steel_city/001.jpg", "/images/photography/steel_city/002.jpg", "/images/photography/steel_city/003.jpg", "/images/photography/steel_city/004.jpg", "/images/photography/steel_city/005.jpg",
 "/images/photography/steel_city/006.jpg", "/images/photography/steel_city/007.jpg", "/images/photography/steel_city/008.jpg", "/images/photography/steel_city/009.jpg", "/images/photography/steel_city/010.jpg", "/images/photography/steel_city/011.jpg", "/images/photography/steel_city/012.jpg"]
 ---
 As I scroll through instagram I often see photos of Coney Island. To be clear, I would never get myself into any of these rides, but the structures themselves, the colors, the sligthly nostalic and kind of creepy feeling and mostly the sadness and tragic stories hidden behind the artificial facade joy fascinates me and always captures my attention. 
