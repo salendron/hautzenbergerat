@@ -90,8 +90,11 @@ html, body {
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top:1em;
-    padding: 0.5em;
-    width: 90vw;
+    width: 80vw;
+    padding-left:5vw;
+    padding-right:5vw;
+    padding-top:1vh;
+    padding-bottom:1vh;
     color: var(--highlight-color); 
     background-color: var(--highlight-color-dark);
     background-blend-mode: multiply;
