@@ -1,7 +1,7 @@
 baseURL = "http://hautzenberger.at/"
 languageCode = "en-us"
 title = "hautzenberger.at"
-theme = "hautzenbergerat"
+theme = "hautzenbergerat_v2"
 
 [menu]
   [[menu.main]]

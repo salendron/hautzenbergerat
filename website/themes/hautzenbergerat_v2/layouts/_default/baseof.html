@@ -2,9 +2,17 @@
 <html>
     {{- partial "head.html" . -}}
     <body>
-        {{- partial "header.html" . -}}
+        <div id="header">
+            <div id="title">{{ .Title }} _</div>
+            <div id="meta">{{ partial "metadata.html" . }}</div>
+            <div id="nav" class="container">
+                <nav>
+                    {{- partial "header.html" . -}}
+                </nav>
+            </div>
+        </div>
         <div id="content" class="container">
-        {{- block "main" . }}{{- end }}
+            {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
     </body>

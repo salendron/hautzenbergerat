@@ -1,11 +1,17 @@
 {{ define "main" }}
 {{ if .Params.cover }}
-<img class="cover" src="{{ .Params.cover }}">
-{{ else }}
-<img class="cover" src="/images/generic_header.jpg">
+<style type="text/css">
+    #header {
+        background: url("{{ .Params.cover }}");
+        background-size:     cover;                      
+        background-repeat:   no-repeat;
+        background-position: center center;  
+        color: var(--highlight-color); 
+        background-color: var(--highlight-color-dark);
+        background-blend-mode: multiply;
+    }
+    </style>
 {{ end }}
-<h1 class="single">{{ .Title }}</h1>
-{{ partial "metadata.html" . }}
 {{ .Content }}
 
 {{ with .Params.images }}

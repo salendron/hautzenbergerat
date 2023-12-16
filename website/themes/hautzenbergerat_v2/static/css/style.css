@@ -1,37 +1,105 @@
-body {
-    background-color: var(--bg-color);
+html, body {
     margin: 0;
-}
-
-.container {
-    padding: var(--default-margin);
-}
-
-#nav {
-    float:left;
-    max-width: 90%;
-    overflow-wrap: break-word;
+    font-family: "Text";
 }
 
 #content {
-    float: left;
-    max-width: 1024px;
-    overflow-wrap: break-word;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
-.cover {
-    max-width:100%;
+#header {
+    font-family: "Headline";
+    width: 100vw;
+    height: 100vh;
+    color: var(--highlight-color); 
+    background-color: var(--highlight-color-dark);
+    background-blend-mode: multiply;
 }
 
-.list-cover {
-    max-width: 150px;
-    float: left;
-    margin-right: var(--default-margin);
+#title {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 30vh;
+    font-size: 5vw;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#meta {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 1vh;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: var(--highlight-color-bright);
+}
+
+#meta  a{
+    text-transform: uppercase;
+    color: var(--highlight-color-bright);
+}
+
+#nav {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-bottom: 1vh;
+    position: absolute;
+    bottom: 0;
+}
+
+#nav a {
+    font-size: 1em;
+    color: var(--highlight-color);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#nav a:hover {
+    color: var(--highlight-color-bright);
+}
+
+.list-link-header a {
+    color: var(--highlight-color);
+    text-decoration: underline;
+}
+
+.list-link-header h2 a, .list-link-header p a {
+    color: var(--highlight-color);
+    text-decoration: none;
+}
+
+.list-link-header h2 a:hover, .list-link-header a:hover {
+    color: var(--highlight-color-bright);
+}
+
+.list-link-header {
+    margin-top:1em;
+    padding: 5vw;
+    width: 80vw;
+    min-height:4em;
+    color: var(--highlight-color); 
+    background-color: var(--highlight-color-dark);
+    background-blend-mode: multiply;
 }
 
 #footer {
-    float: left;
-    max-width: 1024px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top:1em;
+    padding: 0.5em;
+    width: 90vw;
+    color: var(--highlight-color); 
+    background-color: var(--highlight-color-dark);
+    background-blend-mode: multiply;
+    text-transform: uppercase;
+}
+
+#footer a, #footer p {
+    color: var(--highlight-color);
 }
 
 .photo {
@@ -41,11 +109,6 @@ body {
 
 .photo-caption {
     text-align: right;
-}
-
-.clearfix {
-    width: 100%;
-    clear:both;
 }
 
 .highlight pre {

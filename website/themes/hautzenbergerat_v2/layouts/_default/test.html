@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+        html, body {
+            margin: 0;
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        #header {
+            width: 100vw;
+            height: 100vh;
+            color: #FFCC70;
+            background: url(https://picsum.photos/1280/853/?random=1);
+            background-size:     cover;                      /* <------ */
+            background-repeat:   no-repeat;
+            background-position: center center;  
+            background-color: #22668D;
+            background-blend-mode: multiply;
+        }
+
+        #title {
+            width: 90vw;
+            margin-left: 5vw;
+            margin-right: 5vw;
+            padding-top: 30vh;
+            font-size: 5vw;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        #nav {
+            width: 90vw;
+            margin-left: 5vw;
+            margin-right: 5vw;
+            padding-bottom: 1vh;
+            position: absolute;
+            bottom: 0;
+        }
+
+        #nav a {
+            font-size: 1em;
+            color: #FFCC70;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        #nav a:hover {
+            color: #FFFADD;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="title">a longer awesome page title that is actually long _</div>
+        <div id="nav" class="container">
+            <nav>
+                <a class="nav-link" href="{{ .URL }}">// link</a>&nbsp;
+            </nav>
+        </div>
+    </div>
+    <div id="content" class="container">
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+    </divv>
+</body>
+</html>
