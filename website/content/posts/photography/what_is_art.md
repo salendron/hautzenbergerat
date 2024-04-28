@@ -13,14 +13,14 @@ It feels like I should not write about this at all, I‘m not an artist at all. 
 
 What follows is my very personal opinion on what I think art is, my motivation to keep creating without the need of getting recognised by anyone and why generative AIs will not kill art, but jobs.
 
-##Back to 2022
+## Back to 2022
 
 Before I recorded this podcast episode about generative AI and its impact on photography I prepared myself by thinking about why it won‘t replace photographers at all and then Daniel killed all my arguments by describing what the job of a photographer is, not always, but in a commercial setting more often than not: a job. 
 
 The client has expectations and the job of the photographer is to fulfill them. There is nothing bad about that. That‘s how jobs always work. I argued that generative AIs can‘t truly create something new, they just mix and match things they „learned“ from their training sets. This is btw. still something I experience all the time when using generative AIs like DALL•E or similar ones. The results do not at all look creative to me. They look like things I have seen a million times. Don‘t get me wrong, they are amazing, technically, but very generic. Like commercial photography, the perfect shot of a sunset in the background, two people enjoying a romantic dinner in the foreground, the sun reflecting in their wine glasses. Sharp, perfect light, the composition could not be better, exactly what commercial clients want: Perfection.
 This is also the right moment to tell you that I am not able to take photos like this. I do not have the skills to do so. That‘s why photography is a profession, because it takes a lot of skill and experience to produce this level of perfection, the perfect lie, over and over again for each and every new customer and their specific needs. I am not a photographer and I never will be.
 
-##Freedom
+## Freedom
 
 I do not need to create to pay the rent. I have no audience that is waiting for my next photo. Close to no one is watching.  No expectation, no pressure. The only one judging what I do is myself and I can tell you that most of the time I just hate the stuff I create. 
 
@@ -33,7 +33,7 @@ Of course I do not know the answer to this question, after all I do not know him
 
 The need to create something can, at least for me, be reason to do it without expecting it to be something bigger some time. No one will remember me as an artist and I don‘t care, but everytime I get a new batch of photos back from the lab it is pure joy for me, to see that in between a lot of garbage that there sometimes is a photo that I like and that makes me feel that I learned something new to be able to create it. I am not talking about a technical skill most of the time. I really love it to learn something that allows me to tell something new within my creations, even if I tell it mostly only to myself.
 
-##Art
+## Art
 
 Chances are you are still reading this, because you finally want to know what art is or at least what I think it is. So here we go.
 
@@ -46,7 +46,8 @@ This does not mean that there no artist that have a lot of amazing technical ski
 So what is art? For me it is a form of expressing something that needs to be told in a way that it will be remembered and understood. It can be a story or a feeling or even the documentation of a single moment in time that needs to be preserved.
 As I said in the beginning of this post, this is just my way of looking at art and my personal goal I try to accomplish with my work. Like it or not, but that‘s how it is.
 
-##Not an Artists
+## Not an Artists
+
 So, here I am, a guy with a very technical profession, taking mostly analog photos in my free time using cameras that are older than myself on way too expensive film. I do it to create, to learn, to grow, to tell my stories to the few that are listening. 
 I am not an artist and maybe I never will be, but you should know one things: I won‘t stop doing it, because if you scroll a little further you‘ll see a few photos I recently took and they make me happy, because they are a representation of what I am able to create right now and I wasn‘t able to do so when I started to write this post.
 
