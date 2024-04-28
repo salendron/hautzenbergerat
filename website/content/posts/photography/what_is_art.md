@@ -41,7 +41,7 @@ For me art can‘t exist without a story and a purpose, but it absolutely can ex
 
 On the other hand someone taped a banana to a wall and there is also a [pile of candy](https://www.instagram.com/deolineoficial) in a museum and it is allowed or even encouraged to take away candies by the visitors. Both of these artworks are not created with a specific technical skill, but with a very strong purpose and a story that could not be told better in any other way. The story behind the pile of candy for example is so beautiful and sad at the same time. You should really read about it [here](https://www.instagram.com/deolineoficial).
 
-This does not mean that there no artist that have a lot of amazing technical skills to create their art, but sticking a banana to a wall without a purpose and a message is no art to me, the same way a perfect landscape drawing is not art to me, if it does not transport something more than the painting itself.
+This does not mean that there are no artists that have a lot of amazing technical skills to create their art, but sticking a banana to a wall without a purpose and a message is not art to me, the same way a perfect landscape drawing is not art to me, if it does not transport something more than the painting itself.
 
 So what is art? For me it is a form of expressing something that needs to be told in a way that it will be remembered and understood. It can be a story or a feeling or even the documentation of a single moment in time that needs to be preserved.
 As I said in the beginning of this post, this is just my way of looking at art and my personal goal I try to accomplish with my work. Like it or not, but that‘s how it is.
