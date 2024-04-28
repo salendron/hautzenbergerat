@@ -1,5 +1,5 @@
 ---
-title: "Finding my Style"
+title: "What is art"
 date: 2024-04-28T15:00:02Z
 draft: false
 tags: ["photography", "analog", "analogphotograpy", "filmphotography", "style", "art", "blog", "opinion"]
