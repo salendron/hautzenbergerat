@@ -7,7 +7,7 @@ cover: "/images/photography/what_is_art/cover.jpg"
 images: ["/images/photography/what_is_art/001.jpg", "/images/photography/what_is_art/002.jpg", "/images/photography/what_is_art/003.jpg", "/images/photography/what_is_art/004.jpg", "/images/photography/what_is_art/005.jpg",
 "/images/photography/what_is_art/006.jpg"]
 ---
-I started to write this post in October 2022 after recording a [podcast episode](https://www.zischcast.com/fotografen-werden-durch-ai-generierte-bilder-ersetzt-ein-podcast-mit-analogfotograf-und-supernerd-bruno-hauzenberger/() with [Daniel Gollner](https://danielgollner.com/) about AI and the future of photography. While I write this sentence it is April 2024 and I‘m still not sure that I should publish it. It is about art, what I think art is and yes, I‘ve re-written every single sentence within this post countless times. 
+I started to write this post in October 2022 after recording a [podcast episode](https://www.zischcast.com/fotografen-werden-durch-ai-generierte-bilder-ersetzt-ein-podcast-mit-analogfotograf-und-supernerd-bruno-hauzenberger/) with [Daniel Gollner](https://danielgollner.com/) about AI and the future of photography. While I write this sentence it is April 2024 and I‘m still not sure that I should publish it. It is about art, what I think art is and yes, I‘ve re-written every single sentence within this post countless times. 
 
 It feels like I should not write about this at all, I‘m not an artist at all. I can‘t paint, sing, play an instrument or perform and still I love to create. This doesn‘t make an artist, but do I create art? 
 
