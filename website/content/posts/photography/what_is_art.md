@@ -14,12 +14,14 @@ It feels like I should not write about this at all, I‘m not an artist at all. 
 What follows is my very personal opinion on what I think art is, my motivation to keep creating without the need of getting recognised by anyone and why generative AIs will not kill art, but jobs.
 
 ##Back to 2022
+
 Before I recorded this podcast episode about generative AI and its impact on photography I prepared myself by thinking about why it won‘t replace photographers at all and then Daniel killed all my arguments by describing what the job of a photographer is, not always, but in a commercial setting more often than not: a job. 
 
 The client has expectations and the job of the photographer is to fulfill them. There is nothing bad about that. That‘s how jobs always work. I argued that generative AIs can‘t truly create something new, they just mix and match things they „learned“ from their training sets. This is btw. still something I experience all the time when using generative AIs like DALL•E or similar ones. The results do not at all look creative to me. They look like things I have seen a million times. Don‘t get me wrong, they are amazing, technically, but very generic. Like commercial photography, the perfect shot of a sunset in the background, two people enjoying a romantic dinner in the foreground, the sun reflecting in their wine glasses. Sharp, perfect light, the composition could not be better, exactly what commercial clients want: Perfection.
 This is also the right moment to tell you that I am not able to take photos like this. I do not have the skills to do so. That‘s why photography is a profession, because it takes a lot of skill and experience to produce this level of perfection, the perfect lie, over and over again for each and every new customer and their specific needs. I am not a photographer and I never will be.
 
 ##Freedom
+
 I do not need to create to pay the rent. I have no audience that is waiting for my next photo. Close to no one is watching.  No expectation, no pressure. The only one judging what I do is myself and I can tell you that most of the time I just hate the stuff I create. 
 
 So, why do I do it, if I do not expect to get anything out of it?
@@ -32,6 +34,7 @@ Of course I do not know the answer to this question, after all I do not know him
 The need to create something can, at least for me, be reason to do it without expecting it to be something bigger some time. No one will remember me as an artist and I don‘t care, but everytime I get a new batch of photos back from the lab it is pure joy for me, to see that in between a lot of garbage that there sometimes is a photo that I like and that makes me feel that I learned something new to be able to create it. I am not talking about a technical skill most of the time. I really love it to learn something that allows me to tell something new within my creations, even if I tell it mostly only to myself.
 
 ##Art
+
 Chances are you are still reading this, because you finally want to know what art is or at least what I think it is. So here we go.
 
 For me art can‘t exist without a story and a purpose, but it absolutely can exist without an exceptional technical skill. For example, if someone is able to paint the perfect landscape, so realistic that it looks like you are there, this is not necessarily art for me. Or if someone is able to play the piano perfectly. Don‘t get me wrong, these are impressive skills and I truly admire people who have such amazing talents, but that does not automatically make them artist.
