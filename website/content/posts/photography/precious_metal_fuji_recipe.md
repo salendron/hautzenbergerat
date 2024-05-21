@@ -1,5 +1,5 @@
 ---
-title: "My new favourite Fuji Recipe"
+title: "Precious Metal - My new favourite Fuji Recipe"
 date: 2024-05-21T17:00:02Z
 draft: false
 tags: ["photography", "fuji", "recipe", "filmsimulation", "style", "blog"]
