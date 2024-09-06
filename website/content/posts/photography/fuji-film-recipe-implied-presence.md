@@ -12,13 +12,14 @@ One of my favourit features about Fuji digital cameras are film simulation recip
 Example photos of this filmsimulation recipe, which I took using a Fuji X Pro 3, can be found at the end of this post.
 
 ## The Look
-What I like about Abmer T800 is the slightly colder and not too saturated colors as well as the way shadows are treated, it is a Tungston balanced film after all. In my recipe I use auto whitebalance to make it easier to shoot with in different lighting conditions, while still keeping its overall look by adjusting it to be less red and less blue, giving it a "greenish" tint, which in my oppion simulates the Tungston look pretty well. Even though real Tungston balanced film does not work that way, why not benefit from the possibility to "cheat" like that with a digital camera.
+What I like about Abmer T800 is the slightly colder and not too saturated colors as well as the way shadows are treated, it is a Tungsten balanced film after all. In my recipe I use auto whitebalance to make it easier to shoot with in different lighting conditions, while still keeping its overall look by adjusting it to be less red and less blue, giving it a "greenish" tint, which in my oppion simulates the Tungsten look pretty well. Even though real Tungsten balanced film does not work that way, why not benefit from the possibility to "cheat" like that with a digital camera.
 
 ## The Recipe
 
 To create this look I use the following settings on my Fuji X Pro 3:
 
-- Grain Effect: Off (you can turn hat to weak or even high, if you want the "full film experience")
+- Film Simulation: Classic neg.
+- Grain Effect: Off (you can turn that to weak or even high, if you want the "full film experience")
 - Color Chrome Effect: Off
 - Color Chrome FX Blue: Weak
 - White Balance: Auto / R: -3 B: -6
